@@ -56,7 +56,7 @@ void JSON_Array(const cJSON * const array) {
 void app_main()
 {
 	ESP_LOGI(TAG, "Serialize.....");
-	int array_num = 5;
+	int array_num = 12;
 #if defined STATIC
 	// Static memory
 	ESP_LOGI(TAG, "Static memory");
